@@ -303,8 +303,8 @@ namespace custom {
     }
 }</code></pre>
 
-<p>The code listed above actually provides two custom blocks: the einstein block and a custom "comment" block. Compile the custom block by clicking the Blocks tab. Then refresh the browser to make the two blocks available. </p>
-<p>To test and demonstrate the performance of the custom block, we need some code blocks. You can create blocks by first entering code into the JavaScript window of the editor. Copy the code from Exhibit 6 into the main JavaScript window. </p>
+<p>The code listed above actually provides two custom blocks: the einstein block and a custom "comment" block. Compile the custom blocks by clicking the Blocks tab. Then refresh the browser to make the two blocks available. </p>
+<p>To test and demonstrate the performance of the custom blocks, we need some code blocks. You can create blocks by first entering code into the JavaScript window of the editor. Copy the code from Exhibit 6 into the main JavaScript window. </p>
 <h5>Exhibit 6<br>The STS code for the main JavaScript window</h5>
 
 <pre><code>// declare empty array to receive from custom block
