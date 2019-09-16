@@ -130,6 +130,7 @@ Showing Custom group and the custom array block being used</h5>
 <li>return the new array.</li>
 </ol>
 <p>Exhibit 3 lists a custom block that accepts a numeric array, multiplies each element by 2, and returns the changed array. Copy this code into the custom.ts file of your project, compile it by clicking the Blocks tab, and refresh the browser to make the block available.</p>
+
 <h5>Exhibit 3<br>STS code for custom block to<br>receive, modify and return an array</h5>
 
 <pre><code>/**
@@ -167,12 +168,8 @@ namespace custom {
     }
 }</code></pre>
 
-<p><em>Dear Experts: Yes, we know there are different, super-cool JavaScript ways to encode the procedure in Exhibit 3. The approach taken here was designed to make the concept accessible to as wide an audience as possible without requiring very much specialized knowledge of the language.</em></p>
 
-<p>Figure 2 displays the custom function being used. Exhibit 4 lists the JavaScript code that produces the blocks shown in Figure 2. You can paste this code into the main JavaScript window of the MakeCode editor, then click Blocks to view the blocks.</p>
-<h5><img alt="Figure 2" src="https://raw.githubusercontent.com/IowaDave/pxt-arrays-with-custom-blocks/gh-pages/images/Figure%202.png">
-<br>Figure 2<br>
-Showing Custom group and the custom array block being used</h5>
+<p>Figure 2, below, displays the custom function being used. Exhibit 4 lists the JavaScript code that produces the blocks shown in Figure 2. You can paste this code into the main JavaScript window of the MakeCode editor, then click Blocks to view the blocks.</p>
 
 <h5>Exhibit 4<br>STS (JavaScript) code that produces the blocks shown in Figure 2</h5>
 
@@ -202,6 +199,13 @@ basic.forever(function () {
     }
     // repeat
 })</code></pre>
+
+<h5><img alt="Figure 2" src="https://raw.githubusercontent.com/IowaDave/pxt-arrays-with-custom-blocks/gh-pages/images/Figure%202.png">
+<br>Figure 2<br>
+Showing Custom group and the custom array block being used</h5>
+
+
+<p><em>Dear Experts: Yes, we know there are different, super-cool JavaScript ways to encode the procedure in Exhibit 3. The approach taken here was designed to make the concept accessible to as wide an audience as possible without requiring very much specialized knowledge of the language.</em></p>
 
 <p>JavaScript arrays are worthy of detailed study. In significant ways they are unlike arrays found in other languages. MakeCode provides a convenient playground for a patient, playful, exploratory approach to learning JavaScript arrays.</p>
 <p>I imagine that almost any STS array can be passed into or returned from a custom block using the general-purpose techniques illustrated in this article. </p>
