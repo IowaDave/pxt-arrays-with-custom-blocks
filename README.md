@@ -80,11 +80,10 @@ namespace custom {
 }</code></pre>
 
 <p>The syntax for a custom.ts file is explained in detail in another article of this series: <a href="https://iowadave.github.io/pxt-reporter-blocks/">Create Functions That Return Values To MakeCode</a>.</p>
+
 <p>Compile the custom block code by clicking the Blocks link in the editor.</p>
-<p>Refresh the browser window to make the new block available. Figure 1 shows the Custom group and the block being used.</p>
-<h5><img alt="Figure 1" src="https://raw.githubusercontent.com/IowaDave/pxt-arrays-with-custom-blocks/gh-pages/images/Figure%201.png">
-<br>Figure 1<br>
-Showing Custom group and the custom array block being used</h5>
+
+<p>Refresh the browser window to make the new block available.</p>
 
 <p>The code listed in Exhibit 2 can be pasted into the main JavaScript tab of the editor to create the blocks program shown in Figure 1. Click the Blocks tab to switch modes and see the blocks.</p>
 <h5>Exhibit 2<br>The STS code that creates the blocks in Figure 1</h5>
@@ -108,6 +107,12 @@ basic.forever(function () {
     }
     // repeat...
 })</code></pre>
+
+<p>Figure 1 shows the Custom group and the block being used.</p>
+
+<h5><img alt="Figure 1" src="https://raw.githubusercontent.com/IowaDave/pxt-arrays-with-custom-blocks/gh-pages/images/Figure%201.png">
+<br>Figure 1<br>
+Showing Custom group and the custom array block being used</h5>
 
 <p><em>Dear Experts: The technique I chose for counting the number of elements in the array is intended to be general-purpose in nature. True, an array of scalar values would have a .length property equal to the count of elements it contains. However, as you know, arrays-of-arrays do not have a .length property; yet, the number of elements may be counted as shown in Exhibit 2. I do not discuss arrays-of-arrays any farther in this article.</em></p>
 
