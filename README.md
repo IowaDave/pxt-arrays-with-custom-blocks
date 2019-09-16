@@ -85,7 +85,7 @@ namespace custom {
 
 <p>Refresh the browser window to make the new block available.</p>
 
-<p>The code listed in Exhibit 2 can be pasted into the main JavaScript tab of the editor to create the blocks program shown in Figure 1. Click the Blocks tab to switch modes and see the blocks.</p>
+<p>The code listed in Exhibit 2 can be pasted into the main JavaScript tab of the editor to create the blocks program shown in Figure 1, below. Click the Blocks tab to switch modes and see the blocks.</p>
 <h5>Exhibit 2<br>The STS code that creates the blocks in Figure 1</h5>
 
 <pre><code>// declare the main-blocks variables
@@ -216,7 +216,7 @@ Showing Custom group and the custom array block being used</h5>
 <p>The project simulates what is called Brownian motion, so named for a botanist named Robert Brown who, in 1827, published his observations of pollen grains moving randomly in a glass of water.</p>
 <p>The heart of the simulation is the custom block listed in Exhibit 5 that I named "einstein" in honor of Albert Einstein, for his brilliant insight into Brownian motion in 1905 that ended scientific debate about the existence of atoms. Einstein saw more deeply into the phenomenon that anyone had ever done before.</p>
 <p>The comments in Exhibit 5 are my attempt to explain how the function works. </p>
-<p>There is a detail about the comments that may be worthy of note. Look closely at how the multi-line comments start.  Some begin with "/<em> ", that is, a single asterisk following the slant character. Others begin with "/</em>* ", two asterisks following the slant. This tiny difference matters to MakeCode, as follows:</p>
+<p>There is a detail about the comments that may be worthy of note. Look closely at how the multi-line comments start.  Some begin with "/* ", that is, a single asterisk following the slant character. Others begin with "/** ", two asterisks following the slant. This tiny difference matters to MakeCode, as follows:</p>
 <ul>
 <li>"/** " is a metacode token telling MakeCode to incorporate the comment into the custom block as help text.</li>
 <li>"/* " denotes a regular JavaScript comment that will not be incorporated into the custom block.</li>
