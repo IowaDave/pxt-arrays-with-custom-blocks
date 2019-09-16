@@ -18,7 +18,7 @@ Return Arrays From Custom Blocks</h3>
 <p>The block names are descriptive, which means the block names can actually help a beginner to remember what the blocks do. It is very user-friendly.</p>
 <p>The designers of MakeCode created a standard set of blocks based on selected parts of STS. The standard blocks are enough to write many useful programs. </p>
 <p>Sooner or later, however, you may wish that the MakeCode editor provided blocks for some part of the STS language that got left out of the standard blocks. Good news! The MakeCode editor gives you a way to create custom blocks that may accomplish almost anything you could do by writing STS code in a text editor.</p>
-<p>I got interested in the topic of arrays and custom blocks after seeing a request someone posted asking the MakeCode designers to equip functions in the standard blocks to receive and return arrays.</p>
+<p>I got interested in the topic of arrays and custom blocks after seeing a request someone posted asking the MakeCode designers for blocks that receive and return arrays.</p>
 <p>It looked like a perfect job for a custom block.</p>
 <p>How would someone write their own functions to do this, I wondered.</p>
 <h4>Writing Custom Blocks</h4>
