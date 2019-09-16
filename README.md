@@ -11,8 +11,8 @@ Return Arrays From Custom Blocks</h3>
 <p>This is one of a series of articles about my own journey of discovery into writing custom blocks for MakeCode. I am not a very smart person so it took a long time for me to acquire a working knowledge. I share my story with you in hopes that your learning may go faster and easier for you.</p>
 <h4>Background</h4>
 <p>MakeCode is based on a powerful version of JavaScript called Static TypeScript (STS), which was <a href="https://www.microsoft.com/en-us/research/publication/static-typescript/">developed by MicroSoft</a>.</p>
-<p>MakeCode also is a brilliant editor for writing code by simply dragging and connecting colorful graphical blocks. There is STS code behind every block, of code. </p>
-<p>You can even view and edit the code. Try it!  Click the JavaScript tab in MakeCode to see the code, just as if you had typed it into a text editor. Click the Blocks tag to go back to the blocks.</p>
+<p>MakeCode also is a brilliant editor for writing code by simply dragging and connecting colorful graphical blocks. There is STS code behind every block, of course. </p>
+<p>You can even view and edit the code. Try it!  Open a new project in MakeCode. Put some blocks together. Click the JavaScript tab in MakeCode to see the code, just as if you had typed it into a text editor. Click the Blocks tag to go back to the blocks.</p>
 <p>Here is a link to some excellent examples provided by microbit.org, demonstrating the relationships between blocks and STS: <a href="https://makecode.microbit.org/courses/blocks-to-javascript">MakeCode Courses: Blocks To JavaScript</a>.</p>
 <p>Do you see? As long as the blocks meet your needs, you can write code without typing code. How nice!</p>
 <p>The block names are descriptive, which means the block names can actually help a beginner to remember what the blocks do. It is very user-friendly.</p>
