@@ -1,4 +1,3 @@
-```javascript
 /*
  * "Worm" custom block
  * David Sparks September 2019
@@ -85,4 +84,3 @@ namespace custom {
         return newWorm;
     }
 }
-```
