@@ -213,7 +213,8 @@ Showing Custom group and the custom array block being used</h5>
 <p>I cannot do justice to the very broad topic of arrays by purusing it any farther in a short article about custom blocks. Instead, let me conclude with a playful example of arrays in action.</p>
 <p>Here is that link again, repeated from the top of the article. It will load the MakeCode editor with a project that moves a dot randomly on the micro:bit display. Each move changes the dot by one position up, down, or to the left or right.</p>
 <p>In this project a custom block recieves, modifies, and returns an array of x,y coordinates for one dot position. As you can see in Exhibit 5, a custom block can do quite a bit of processing before it returns a value.</p>
-<p><a href= "https://makecode.microbit.org/#pub:_9uE8MvKyW6cv" ">https://makecode.microbit.org/#pub:_9uE8MvKyW6cv</a></p>
+
+<p><a href= "https://makecode.microbit.org/#pub:_9uE8MvKyW6cv">https://makecode.microbit.org/#pub:_9uE8MvKyW6cv</a></p>
 <p>The project simulates what is called Brownian motion, so named for a botanist named Robert Brown who, in 1827, published his observations of pollen grains moving randomly in a glass of water.</p>
 <p>The heart of the simulation is the custom block listed in Exhibit 5 that I named "einstein" in honor of Albert Einstein, for his brilliant insight into Brownian motion in 1905 that ended scientific debate about the existence of atoms. Einstein saw more deeply into the phenomenon that anyone had ever done before.</p>
 <p>The comments in Exhibit 5 are my attempt to explain how the function works. </p>
