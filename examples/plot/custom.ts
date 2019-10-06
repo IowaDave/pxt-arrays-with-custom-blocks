@@ -1,5 +1,5 @@
 /*
- * Custom block code
+ * Custom block code for the project's custom.ts file
  */
 // Declare this enum outside the custom namespace.
 // Doing so makes it available to regular blocks.
@@ -22,10 +22,11 @@ namespace custom {
      *    array of 2 numbers,
      *    selection from an enumerated list
      * Asserts:
-     *    array has exactly 2 elements of type number
+     *    array has exactly 2 elements of type number,
+     *    having values in the range 0 to 4, only
      * Returns: nothing
      * Side effects: turns a pixel on or off
-     */ 
+     */
     // The following comment encodes the help-text for the block
     /**
      * Plot or unplot an led on the display
@@ -34,9 +35,14 @@ namespace custom {
     export function turnLED(theDot: number[],
         onOrOff: OnOff): void {
         // assert that theDot is a two-number array
+        // having values only between 0 and 4, inclusive
         if (
             theDot.length !== 2
-            || typeof theDot[0] !== "number"   
+            || typeof theDot[0] !== "number"
+            || theDot[0] < 0
+            || theDot[0] > 4
+            || theDot[1] < 0
+            || theDot[1] > 4
         ) {
             // indicate error and exit
             basic.showString("?");
@@ -52,4 +58,4 @@ namespace custom {
             default: // do nothing
         }
     }
-}
+} 
