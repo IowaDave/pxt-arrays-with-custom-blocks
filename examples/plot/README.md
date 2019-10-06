@@ -10,7 +10,7 @@ The code in this example illustrates using an array with the following steps:
 * Create an array for a pixel in the center of the display, that is, at position [2,2].
 * Pass the array into a custom block for activation.
 
-The following link will bring this example into your browser with the project already fully loaded: [https://makecode.microbit.org/#pub:_UDrhi19YHTwF](https://makecode.microbit.org/#pub:#pub:_UDrhi19YHTwF)
+The following link will bring this example into your browser with the project already fully loaded: [https://makecode.microbit.org/#pub:_UDrhi19YHTwF](https://makecode.microbit.org/#pub:_UDrhi19YHTwF)
 
 If you prefer to create the example project manually, consider the following steps.
 1. Start a new, blank project in the MakeCode editor.
