@@ -1,14 +1,13 @@
-// place the following declaration 
-// above the namespace in your custom.ts file
-
 enum OnOff {
-  ON,
-  OFF
+    ON,
+    OFF
 }
-   
-// place the following code inside 
-// the namespace in your custom.ts file
-    
+
+/**
+ * Custom blocks
+ */
+//% weight=100 color=#0fbc11 icon=""
+namespace custom {
     /**
      * Plot or unplot an led on the display
      */
@@ -25,3 +24,4 @@ enum OnOff {
             default: // do nothing
         }
     }
+}
